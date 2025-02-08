@@ -1,0 +1,84 @@
+.contact {
+  padding: 4rem 2rem;
+  text-align: center;
+  background-color:transparent;
+
+  &-button {
+    padding: 15px 30px; // Increase padding for larger button
+    font-size: 18px; // Increase font size
+    background-color: #580172; // Button background color
+    color: white; // Button text color
+    border: none; // Remove border
+    border-radius: 5px; // Rounded corners
+    cursor: pointer; // Pointer cursor on hover
+    transition: background-color 0.3s ease; // Smooth transition for background color
+
+    &:hover {
+      background-color: #38094e; // Darker background color on hover
+    }
+  }
+
+
+  &-title {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: var(--slate);
+ 
+  font-family: var(--raleway);
+
+  }
+
+  &-sub-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    
+    font-family: var(--raleway);
+    color: var(--slate);
+  }
+
+  &-text {
+    font-size: 1rem;
+    margin-bottom: 2rem;
+    color: var(--slate);
+    line-height: 1.5;
+  }
+
+  &-form {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: left;
+
+    .form-group {
+      margin-bottom: 1.5rem;
+
+      label {
+        display: block;
+        margin-bottom: 0.5rem;
+        font-weight: bold;
+        color: #d6cbea;
+      }
+
+      input,
+      textarea {
+        width: 100%;
+        padding: 0.75rem;
+        border: 1px solid #9d00ff;
+        border-radius: 4px;
+        font-size: 1rem;
+        color:#d6cbea;
+        transition: border-color 0.3s;
+        background-color: transparent;
+
+        &:focus {
+          border-color: #10166c;
+          outline: none;
+        }
+      }
+
+      textarea {
+        resize: vertical;
+        background-color: transparent;
+      }
+    }
+  }
+}
