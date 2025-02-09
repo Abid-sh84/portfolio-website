@@ -125,7 +125,7 @@ function Navbar() {
               delay: 0.6,
             }}
           >
-            <Button text="Resume" link="" />
+            <Button text="Resume" link="https://drive.google.com/file/d/10r8ctpfQR9rlPPDGUpPs1L8oxqL-ipxE/view?usp=sharing" />
           </motion.div>
         </div>
       </div>
